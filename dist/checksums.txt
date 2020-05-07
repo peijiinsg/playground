@@ -1,0 +1,4 @@
+be09b7fb28f3600e9541a62bd1d745451e61044bec452e4631c0d1602be99dda  playground_v0.0.0-next_Linux_i386.tar.gz
+6469144d3f443d610a303088520e72fe6640a478add70287079edbcb6a12ede7  playground_v0.0.0-next_Darwin_x86_64.tar.gz
+ddc9f54e03056d96d3049cbb8ecc8e029398e91d4402a3c739869b54aa4bfb22  playground_v0.0.0-next_Darwin_i386.tar.gz
+2655b3eb5701991487800db61578e1de5eb84d5b447371de237c4679b95ac411  playground_v0.0.0-next_Linux_x86_64.tar.gz
