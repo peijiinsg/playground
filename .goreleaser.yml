@@ -29,7 +29,7 @@ changelog:
 brews:
 - github:
     owner: peijiinsg
-    name: homebrew-tap
+    name: playground
   commit_author:
     name: peijiinsg
     email: peiji@gmail.com
