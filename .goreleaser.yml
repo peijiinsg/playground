@@ -26,3 +26,23 @@ changelog:
     exclude:
     - '^docs:'
     - '^test:'
+brews:
+- github:
+    owner: peijiinsg
+    name: homebrew-tap
+  commit_author:
+    name: peijiinsg
+    email: peiji@gmail.com
+  url_template: "https://github.com/peijiinsg/playground/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
+  download_strategy: GitHubPrivateRepositoryReleaseDownloadStrategy
+  custom_require: ../custom_download_strategy
+  homepage:  https://github.com/peijiinsg/playground
+  description: Useful toolset
+  folder: Formula
+  test: |
+      system "#{bin}/playground help"
+  install: |
+      # For some reason the tar ball that homebrew downloads contains another weirdly named 
+      # tar ball that contains the actual files and needs to be extracted
+      system("tar -xvf www.w3.org")
+
