@@ -35,7 +35,6 @@ brews:
     email: peiji@gmail.com
   url_template: "https://github.com/peijiinsg/playground/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
   download_strategy: GitHubPrivateRepositoryReleaseDownloadStrategy
-  custom_require: ../custom_download_strategy
   homepage:  https://github.com/peijiinsg/playground
   description: Useful toolset
   folder: Formula
